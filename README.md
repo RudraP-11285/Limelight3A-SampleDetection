@@ -2,10 +2,12 @@
 Using contour detection on a Limelight3A camera to single out samples in the submersible, FTC Into the Deep (2024-2025)
 
 The Challenge:
+
 Detect samples from the submersible using contour detection to filter out yellow, blue, and red samples and return position and rotation values for our robot to use to autonomously grab samples accurately.
 
 
 The Algorithm:
+
 Use CV2 and numpy to calculate contour areas and simplify them into boxes, ensuring that the extra small contours are deleted in order to only return data for a single contour (of each color). Using the returned angle and position relative to the camera, we are able to move our robot around to line up with the block.
 
 You can get the Limelight Output Data in Android Studio using:
