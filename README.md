@@ -9,6 +9,7 @@ The Algorithm:
 Use CV2 and numpy to calculate contour areas and simplify them into boxes, ensuring that the extra small contours are deleted in order to only return data for a single contour (of each color). Using the returned angle and position relative to the camera, we are able to move our robot around to line up with the block.
 
 You can get the Limelight Output Data in Android Studio using:
+
 <img width="449" alt="Screenshot 2025-04-05 at 11 02 41 AM" src="https://github.com/user-attachments/assets/2d9f6f5f-4b6d-415e-b18c-e8c0949121a5" />
 
 
